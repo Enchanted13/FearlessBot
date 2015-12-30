@@ -64,6 +64,9 @@ mybot.on("message", function (message)
     if (user.username=="BusyStreetsBusyLives" && message.content.toLowerCase().indexOf("eastenders") !== -1)
     {
         mybot.reply(message, "*eyeroll* http://i.imgur.com/iOGxuIP.png");
+    } else if (user.username=="WonderstruckNathan" && message.content.toLowerCase().indexOf("love this song") !== -1)
+    {
+        mybot.reply(message, "we know.");
     }
 
 
