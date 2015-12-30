@@ -61,7 +61,7 @@ mybot.on("message", function (message)
             [user.id, user.username, user.username]);
     }
 
-    if (user.username=="BusyStreetsBusyLives" && message.content.toLowerCase().indexOf("eastenders") !== 0)
+    if (user.username=="BusyStreetsBusyLives" && message.content.toLowerCase().indexOf("eastenders") !== -1)
     {
         mybot.reply(message, "*eyeroll* http://i.imgur.com/iOGxuIP.png");
     }
