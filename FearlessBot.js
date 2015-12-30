@@ -61,6 +61,11 @@ mybot.on("message", function (message)
             [user.id, user.username, user.username]);
     }
 
+    if (user.username=="BusyStreetsBusyLives" && message.content.toLowerCase().indexOf("eastenders") !== 0)
+    {
+        mybot.reply(message, "*eyeroll* http://i.imgur.com/iOGxuIP.png");
+    }
+
 
     // Check for commands
     switch (command[0])
